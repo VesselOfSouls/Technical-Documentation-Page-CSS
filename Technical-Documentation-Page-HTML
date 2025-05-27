@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header class="navtitle">Navigation</header>
+      <ol>
+        <li><a class="nav-link" href="#intro">Intro</a></li>
+        <li><a class="nav-link" href="#Frustrations">Frustrations</a></li>
+        <li><a class="nav-link" href="#learning">Learning</a></li>
+        <li><a class="nav-link" href="#topic_4">Topic 4</a></li>
+        <li><a class="nav-link" href="#topic_5">Topic 5</a></li>
+      </ol>
+      <div class="line-red"></div>
+      <div class="line"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <div class="line4"></div>
+      <div class="line5"></div>
+      <div class="line6"></div>
+      <div class="circle"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+    </nav>
+<main id="main-doc">
+      <section class="main-section" id="intro"><!--[Section and header ID must match header's text]!-->
+        <header class="topic" id="intro">Intro</header>
+        <p>This site was built by me, from scratch. Through trial and error, countless hours of work, and code that magically deleted itself; from <code>html</code> to <code>/html</code>, I finally have this lovely site to show for it. There were some parts I had to reverse-engineer from just a screenshot!</p>
+        <p> While it's definitely not perfect, it's something I'm proud of on my learning journey toward a Full Stack Developer certification.</p>
+        <p>I learned not only how to implement the code that made this site look so nice and clean, but also the importance of keeping a frequently-updated backup!! I just updated my backup again after writing this :) </p>
+      </section>
+<section class="main-section" id="Frustrations">
+        <header class="topic" id="Frustrations">Frustrations</header>
+        <p>A lot has happened during this process. I had to do a lot of searching and scouring my notes in order to get things the way I wanted them. The little navigation pad looks so simple, doesn't it? The code for it spans over 160 lines! For reference, this paragraph, if it were all lines of code, would span only 2 on my layout. </p>
+        <p>It can be a pain to work out where something isn't going right - for instance, I couldn't figure out what I was doing wrong that the navigation pad didn't scroll with the screen when you move down or up the page! After a ton of research, I finally found the answer: All I needed to do was put a <code>top: 10%;</code> in the <code>nav</code> selector. Such a simple and easy solution that was <em>so</em> hard to find!</p>
+      </section>
+<section class="main-section" id="learning">
+        <header class="topic" id="learning">Learning</header>
+        <p>No matter what, learning is a process. It takes time, and most importantly, failure. You learn so much more from failure than success. It's why test-runs are so important for most things, because you can't find the flaws until you do!</p>
+        <p>This is why in all coding projects, debugging is extremely important, especially where interface and accessibility are concerned. Videogames are another very important place that debugging is non-negotiable, otherwise you could end up with a mess of a broken game - and that's no fun for you <em>or</em> the player.</p>
+      </section>
+<section class="main-section four" id="topic_4">
+        <header class="topic" id="topic_4">Topic 4</header>
+        <p>Lorem ipsum dolor sit amet...</p>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </section>
+<section class="main-section five" id="topic_5">
+        <header class="topic" id="topic_5">Topic 5</header>
+        <p>Lorem ipsum dolor sit amet...</p>
+        <p>Lorem ipsum dolor sit amet...</p>
+      </section>
+    </main>
+  </body>
+ <footer>
+</footer>
+</html>
