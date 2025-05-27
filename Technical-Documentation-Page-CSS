@@ -1,0 +1,353 @@
+* {
+background-color: green;
+}
+
+
+
+
+html {
+  margin-left: 288px;
+  margin-top: 80px;
+  margin-right: 80em;
+}
+
+
+
+
+/* Navigation Styling */
+nav {
+  border: double;
+  border-width: 10px;
+  border-color: tan;
+  background-color: #5c3f2d;
+  border-radius: 25px;
+  position: sticky;
+  float: left;
+  max-width: 250px;
+  min-width: 250px;
+  min-height: 325px;
+  max-height: 325px;
+  margin-right: 80px;
+  transform: rotate(-5deg);
+  filter: drop-shadow(10px 10px 10px #062903);
+  top: 10%;
+}
+
+
+
+
+.navtitle {
+  font-size: 28px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-top: 20px;
+  padding-left: 44px;
+  padding-right: 44px;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+
+
+
+ol {
+  font-size: 20px;
+  margin-left: 18px;
+  margin-right: 18px;
+  padding-left: 44px;
+  padding-right: 76px;
+  padding-bottom: 30px;
+  margin-top: -25px;
+  list-style: none;
+  background-color: white;
+}
+
+
+
+
+ol, .navtitle {
+  filter: drop-shadow(3px 3px 1px #062903)
+}
+
+
+
+
+li {
+  margin-top: 20px;
+  background-color: white;
+}
+
+
+
+
+.circle {
+  background-color: #5c3f2d;
+  border-radius: 360px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-left: 28px;
+  margin-top: -225px;
+  /*filter: drop-shadow(3px 3px 1px #062903)*/
+  Box-shadow: 3px 3px 1px #062903 inset;
+}
+
+
+
+
+.circle2 {
+  background-color: #5c3f2d;
+  border-radius: 360px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-left: 28px;
+  margin-top: 80px;
+  Box-shadow: 3px 3px 1px #062903 inset;
+}
+
+
+
+
+.circle3 {
+  background-color: #5c3f2d;
+  border-radius: 360px;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-left: 28px;
+  margin-top: 80px;
+  Box-shadow: 3px 3px 1px #062903 inset;
+}
+
+
+
+
+.line {
+  width: 214px;
+  height: 2px;
+  background-color: #0091ff;
+  position: relative;
+  margin-top: -97px;
+  margin-left: 18px;
+}
+
+
+
+
+.line2 {
+  width: 214px;
+  height: 2px;
+  background-color: #0091ff;
+  position: relative;
+  margin-top: 36px;
+  margin-left: 18px;
+}
+
+
+
+
+.line3 {
+  width: 214px;
+  height: 2px;
+  background-color: #0091ff;
+  position: relative;
+  margin-top: 41px;
+  margin-left: 18px;
+}
+
+
+
+
+.line4 {
+  width: 214px;
+  height: 2px;
+  background-color: #0091ff;
+  position: relative;
+  margin-top: 41px;
+  margin-left: 18px;
+}
+
+
+
+
+.line5 {
+  width: 214px;
+  height: 2px;
+  background-color: #0091ff;
+  position: relative;
+  margin-top: 41px;
+  margin-left: 18px;
+}
+
+
+
+
+.line6 {
+  width: 214px;
+  height: 2px;
+  background-color: #0091ff;
+  position: relative;
+  margin-top: 41px;
+  margin-left: 18px;
+}
+
+
+
+
+.line-red {
+  width: 285px;
+  height: 2px;
+  background-color: red;
+  transform: rotate(-90deg);
+  margin-top: -164px;
+  margin-left: -86px;
+  position: relative;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+
+
+
+a:link {
+  color: black;
+  background-color: white;
+}
+
+
+
+
+a:hover {
+  background-color: yellow;
+}
+
+
+
+
+a:active {
+  color:lime;
+}
+
+
+/* Navigation Styling End */
+
+
+/* Main Content Styling */
+
+
+
+
+
+
+p {
+  max-width: 500px;
+  min-width: 500px;
+  margin-left: 460px;
+  font-size: 17px;
+  margin-top: 40px;
+  padding: 10px;
+  margin-bottom: -25px;
+}
+
+
+
+
+
+
+em {
+  background-color: rgba(255, 255, 255, .0);
+}
+
+
+
+
+
+
+p, .topic {
+  font-weight: bold;
+  border-right: 18px solid rgba(0, 0, 0, .3);
+  border-bottom: 5px solid rgba(0, 0, 0, .3);
+  border-radius: 5px;
+  background-color: rgba(230, 124, 180, .8);
+  box-shadow: 5px 5px 10px #062903;
+}
+
+
+
+
+
+
+
+
+.topic {
+  font-size: 35px;
+  font-style: italic;
+  /*max-width: 500px;
+  min-width: 400px;*/
+  min-width: 100px;
+  margin-left: 400px;
+  margin-top: 75px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+
+
+
+
+
+/* Topics Styling */
+
+
+#Frustrations {
+  min-width: 210px;
+}
+
+
+
+
+#learning {
+  min-width: 160px;
+}
+
+
+/* Topics Styling End */
+
+
+
+
+code {
+  border: 1px solid #88326a;
+  background-color: #d46ecd;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+
+
+
+
+
+footer {
+  padding-top: 100px;
+}
+
+
+
+
+
+
+/* Main Content Styling End */
+
+
